@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'RussoOne-Regular';
+    src: url(../fonts/RussoOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Ubuntu-Bold';
+    src: url(../fonts/Ubuntu-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: 'Ubuntu-Regular';
+    src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
+body {
+    background-image: url(https://img.myloview.com/murals/vector-minimalist-seamless-pattern-black-and-white-minimal-geometric-texture-simple-abstract-monochrome-background-with-small-lines-dots-thin-hexagonal-grid-subtle-dark-repeat-tileable-design-700-208633224.jpg);
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    background-size: auto;
+    margin: 0px ;
+}
+
+.posts {
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    color: whitesmoke;
+    background-color:rgb(54, 13, 100);
+    font-family: 'Ubuntu-Regular3]';
+}
+
+.posts img {
+    width: 100%;
+}
+
+.posts p {
+    padding: 10px;
+    font-size: 20pt
+}
+
+.posts h2 {
+    padding: 10px;
+    font-family: 'RussoOne-Regular';
+    font-weight: 400;
+}
+
+.headImage {
+    width: 100%;
+    display: flex;
+}
+
+.head {
+    top: 0px;
+    margin-bottom: 5px;
+    width: 100%;
+    position: sticky;
+    background-color: white;
+    font-family: 'Ubuntu-Bold';
+}
+
+td img{
+    width: 32px;
+    border-radius: 50%;
+}
+
+.head p {
+    float: left;
+}
+
+.head ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 15px;
+}
+
+.head li {
+    float: left;
+    padding: 0px 15px;
+}
+
+.button:hover {
+     background-color: blueviolet;
+     color: white;
+     cursor: pointer;
+}
+
+.disable {
+    background-color: blueviolet;
+    color: white;
+    pointer-events: none;
+}
+
+.footer {
+    background-color: white;
+    padding: 20px;
+    font-family: 'Ubuntu-Regelar';
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:checked {
+    color: black;
+}
+
+@media (max-width:767px) {
+      .headImage {
+          content: url(../mobile_background.jpg);
+      }
+      .head ul{
+        
+        margin: 0;
+        padding: 0;
+        
+    }
+
+.posts {
+  width: 100%;
+  border-radius: 0;
+}
+
+}
